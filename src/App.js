@@ -1,4 +1,5 @@
 import ExpenseItem from "./components/ExpenseItem";
+// This is a comment added to see the change during commit
 function App() {
   const expenses = [
     {
