@@ -1,4 +1,5 @@
-import ExpenseItem from "./components/ExpenseItem";
+import Expenses from "./components/Expenses";
+import NewExpense from "./components/NewExpenses/NewExpense";
 // This is a comment added to see the change during commit
 // This is the second comment
 // This is the third comment made in github website to test pull
@@ -26,7 +27,7 @@ function App() {
   ];
   return (
     <div>
-      <ExpenseItem 
+      {/* <ExpenseItem 
       title={expenses[0].title}
       amount={expenses[0].amount }
       date={expenses[0].date}>
@@ -45,7 +46,9 @@ function App() {
       title={expenses[3].title}
       amount={expenses[3].amount }
       date={expenses[3 ].date}>
-      </ExpenseItem>
+      </ExpenseItem> */}
+      <NewExpense />
+      <Expenses items={expenses}/>
      
     </div>
   );
